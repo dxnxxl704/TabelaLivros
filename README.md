@@ -1,12 +1,13 @@
 # TabelaLivros
 
-JSON no Banco de Dados Curso: Técnico em ADS (Ensino Médio) | Disciplina: Banco de Dados | Valor: 1,0 pontos Nome: _______________________________________________ Turma: ___________ 
+JSON no Banco de Dados Curso: Técnico em ADS (Ensino Médio) | Disciplina: Banco de Dados | Valor: 1,0 pontos 
+Nome: _______________________________________________ Turma: ___________ 
 
 Instruções Leia cada questão com atenção antes de começar. Resolva todas as questões na ordem. Anote o comando SQL que você usaria em cada questão no espaço reservado abaixo dela. 
 
 Esta atividade deve ser resolvida individualmente, durante a aula. O uso de Inteligência Artificial (ChatGPT, Copilot ou qualquer ferramenta similar) para gerar as respostas não será considerado para fins de nota.
 
-Contexto Uma biblioteca quer digitalizar o cadastro dos seus livros. Cada livro pode ter uma ou mais categorias (Ficção, Aventura, Romance, etc.) — e esse número varia de livro para livro. Por isso, as categorias serão guardadas em formato JSON dentro de uma única coluna. Exemplo do formato JSON esperado para as categorias: [{"nome": "Ficção"}, {"nome": "Aventura"}]
+Uma biblioteca quer digitalizar o cadastro dos seus livros. Cada livro pode ter uma ou mais categorias (Ficção, Aventura, Romance, etc.) — e esse número varia de livro para livro. Por isso, as categorias serão guardadas em formato JSON dentro de uma única coluna. Exemplo do formato JSON esperado para as categorias: [{"nome": "Ficção"}, {"nome": "Aventura"}]
 
 Questão 1 Crie a tabela livro com as colunas: id (chave primária, inteiro), titulo (texto) e categorias (texto — vai guardar o JSON).
 
